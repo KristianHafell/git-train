@@ -19,6 +19,8 @@
 |lage draft pull request|klikk: draft pull request|
 |hvis legge til|klikk: rebase and merge|
 |etterpå| slack melding til Dennis|
+|gå tilbake til main|`git checkout main`|
+|få endringene fra merge|`git pull`|
 
 ## inspeksjon
 |description|command|

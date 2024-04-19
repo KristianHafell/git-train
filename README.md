@@ -14,7 +14,7 @@
 |commit|`git commit -m "description"`|
 |push to main|`git push`|
 |hvis ny push|`git push --set-upstream origin new-branch`|
-|for å legge til github|shiftklikk: https://github.com/owner/git-repo/pull/new/new-branch|
+|for å legge til github|cmd-klikk: https://github.com/owner/git-repo/pull/new/new-branch|
 |lage pull request|klikk: create pull request|
 |lage draft pull request|klikk: draft pull request|
 |hvis legge til|klikk: rebase and merge|

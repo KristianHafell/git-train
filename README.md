@@ -1,31 +1,29 @@
 # git-test 
 
-# git clone git@github.com:KristianHafell/git-train.git . 
+## koble opp nytt repo
+|description|command|
+|--|--|
+|lage repo|gjennom https://github.com/KristianHafell?tab=repositories -> new -> fyll ut|
+|koble opp i terminal| `git clone git@github.com:owner/git-repo.git . `|
 
-# Ser forskjeller
-`git diff `
+## når jeg skal kode
+|description|command|
+|--|--|
+|ny branch|`git checkout -b new-branch`|
+|add file|`git add filepath`|
+|commit|`git commit -m "description"`|
+|push to main|`git push`|
+|hvis ny push|`git push --set-upstream origin new-branch`|
+|for å legge til github|shiftklikk: https://github.com/owner/git-repo/pull/new/new-branch|
+|lage pull request|klikk: create pull request|
+|lage draft pull request|klikk: draft pull request|
+|hvis legge til|klikk: rebase and merge|
+|etterpå| slack melding til Dennis|
 
-
-# Ser log
-` git log `
-
-# Create new branch
-`git checkout -b new-branch`
-
-# add 
-`git add README.md`
-
-# commit 
-`git commit -m "text"`
-
-# push
-`git push`
-### hvis ny
-`git push --set-upstream origin new-branch`
-
-# til github trykk på
-https://github.com/KristianHafell/git-train/pull/new/learn-git
-
-rebase and merge
-
+## inspeksjon
+|description|command|
+|--|--|
+|Se forskjeller i filen|`git diff`|
+|Se log|`git log`|
+|se hvem som har gjort endringer|`git blame filepath`|
 

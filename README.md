@@ -26,6 +26,7 @@
 ## inspeksjon
 |description|command|
 |--|--|
+|quit|trykk: `q`|
 |Se forskjeller i filen|`git diff`|
 |Se log|`git log`|
 |se hvem som har gjort endringer|`git blame filepath`|

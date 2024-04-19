@@ -11,6 +11,7 @@
 |--|--|
 |ny branch|`git checkout -b new-branch`|
 |add file|`git add filepath`|
+|add noe fra fil|`git add -p README.md` -> `s`|
 |commit|`git commit -m "description"`|
 |push to main|`git push`|
 |hvis ny push|`git push --set-upstream origin new-branch`|

@@ -11,7 +11,7 @@
 |--|--|
 |ny branch|`git checkout -b new-branch`|
 |add file|`git add filepath`|
-|add noe fra fil|`git add -p README.md` -> `s`|
+|add noe fra fil|`git add -p README.md`|
 |commit|`git commit -m "description"`|
 |push to main|`git push`|
 |hvis ny push|`git push --set-upstream origin new-branch`|
@@ -22,6 +22,7 @@
 |etterpå| slack melding til Dennis|
 |gå tilbake til main|`git checkout main`|
 |få endringene fra merge|`git pull`|
+|slette branch|`git branch -d new-branch`|
 
 ## inspeksjon
 |description|command|
@@ -29,5 +30,6 @@
 |quit|trykk: `q`|
 |Se forskjeller i filen|`git diff`|
 |Se log|`git log`|
+|Se log penere|`git log --graph`|
 |se hvem som har gjort endringer|`git blame filepath`|
 

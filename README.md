@@ -1,4 +1,4 @@
-# git-test 
+# git-commands
 
 ## koble opp nytt repo
 |description|command|

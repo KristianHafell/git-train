@@ -1,0 +1,233 @@
+<h1>git-commands (made by the best)</h1>
+
+<h2>når jeg skal kode</h2>
+<table>
+    <tr>
+        <th>description</th>
+        <th>command</th>
+        <th>shortcut(egen)</th>
+    </tr>
+    <tr>
+        <td>sjekk status</td>
+        <td><code class="code">git status</code></td>
+        <td><code class="code">gs</code></td>
+    </tr>
+    <tr>
+        <td>ny branch</td>
+        <td><code class="code">git checkout -b &lt;branch-name&gt;</code></td>
+        <td><code class="code">gcob &lt;branch-name&gt;</code></td>
+    </tr>
+    <tr>
+        <td>add file</td>
+        <td><code class="code">git add &lt;filepath&gt;</code></td>
+        <td><code class="code">ga</code></td>
+    </tr>
+    <tr>
+        <td>commit</td>
+        <td><code class="code">git commit -m "&lt;description&gt;"</code></td>
+        <td><code class="code">gc -m "&lt;description&gt;"</code> or <code class="code">gcm "&lt;description&gt;"</code></td>
+    </tr>
+    <tr>
+        <td>push to main</td>
+        <td><code class="code">git push</code></td>
+        <td><code class="code">gp</code></td>
+    </tr>
+    <tr>
+        <td>hvis ny push</td>
+        <td><code class="code">git push --set-upstream origin &lt;branch-name&gt;</code></td>
+        <td><code class="code">gpsuo &lt;branch-name&gt;</code></td>
+    </tr>
+    <tr>
+        <td>for å legge til github</td>
+        <td>cmd-click: <code class="code">https://github.com/&lt;owner&gt;/&lt;git-repo&gt;/pull/new/&lt;branch-name&gt;</code></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>lage pull request</td>
+        <td>klikk: <strong>create pull request</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>lage draft pull request</td>
+        <td>klikk: <strong>draft pull request</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>hvis legge til</td>
+        <td>klikk: <strong>rebase and merge</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>etterpå</td>
+        <td><strong>slack</strong> melding til Dennis</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gå tilbake til main</td>
+        <td><code class="code">git checkout main</code></td>
+        <td><code class="code">gco main</code></td>
+    </tr>
+    <tr>
+        <td>få endringene fra merge</td>
+        <td><code class="code">git pull</code></td>
+        <td><code class="code">gpl</code></td>
+    </tr>
+    <tr>
+        <td>slette branch</td>
+        <td><code class="code">git branch -d &lt;branch-name&gt;</code></td>
+        <td><code class="code">gbd &lt;branch-name&gt;</code> or <code class="code">gb -d &lt;branch-name&gt;</code></td>
+    </tr>
+</table>
+
+<h2>spesielle tilfeller</h2>
+<table>
+    <tr>
+        <th>description</th>
+        <th>command</th>
+        <th>shortcut(egen)</th>
+    </tr>
+    <tr>
+        <td>Merge a branch into the current branch</td>
+        <td><code class="code">git merge &lt;branch-name&gt;</code></td>
+        <td><code class="code">gm &lt;branch-name&gt;</code></td>
+    </tr>
+    <tr>
+        <td>add noe fra fil</td>
+        <td><code class="code">git add -p &lt;filepath&gt;</code></td>
+        <td><code class="code">gap &lt;filepath&gt;</code></td>
+    </tr>
+    <tr>
+        <td>endre siste commit-melding</td>
+        <td><code class="code">git commit --amend -m "ny melding"</code></td>
+        <td><code class="code">gc --amend -m "ny melding"</code></td>
+    </tr>
+    <tr>
+        <td>angre siste commit og behold endringene</td>
+        <td><code class="code">git reset HEAD~</code></td>
+        <td><code class="code">gr</code></td>
+    </tr>
+    <tr>
+        <td>Stash changes</td>
+        <td><code class="code">git stash</code></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apply stashed changes</td>
+        <td><code class="code">git stash apply</code></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>List stashes</td>
+        <td><code class="code">git stash list</code></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Drop a stash</td>
+        <td><code class="code">git stash drop &lt;stash-name&gt;</code></td>
+        <td></td>
+    </tr>
+</table>
+
+<h2>inspeksjon</h2>
+<table>
+    <tr>
+        <th>description</th>
+        <th>command</th>
+        <th>shortcut(egen)</th>
+    </tr>
+    <tr>
+        <td>quit</td>
+        <td>trykk: <code class="code">q</code></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Se forskjeller i filen</td>
+        <td><code class="code">git diff &lt;filepath&gt;</code></td>
+        <td><code class="code">gd &lt;filepath&gt;</code></td>
+    </tr>
+    <tr>
+        <td>se forskjellene mellom to branches</td>
+        <td><code class="code">git diff &lt;branch1&gt;..&lt;branch2&gt;</code></td>
+        <td><code class="code">gd &lt;branch1&gt;..&lt;branch2&gt;</code></td>
+    </tr>
+    <tr>
+        <td>Se log</td>
+        <td><code class="code">git log</code></td>
+        <td><code class="code">gl</code></td>
+    </tr>
+    <tr>
+        <td>Se log penere</td>
+        <td><code class="code">git log --graph</code></td>
+        <td><code class="code">glg</code></td>
+    </tr>
+    <tr>
+        <td>se hvem som har gjort endringer</td>
+        <td><code class="code">git blame &lt;filepath&gt;</code></td>
+        <td><code class="code">gbl</code></td>
+    </tr>
+    <tr>
+        <td>se hvilke filer som er endret i en commit</td>
+        <td><code class="code">git show --name-only &lt;commit-hash&gt;</code></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>List all branches</td>
+        <td><code class="code">git branch</code></td>
+        <td><code class="code">gbr</code></td>
+    </tr>
+</table>
+
+<h2>koble opp nytt repo</h2>
+<table>
+    <tr>
+        <th>description</th>
+        <th>command</th>
+    </tr>
+    <tr>
+        <td>lage repo</td>
+        <td><code class="code">https://github.com/KristianHafell?tab=repositories</code> -> <strong>new</strong> -> <strong>fyll ut</strong></td>
+    </tr>
+    <tr>
+        <td>koble opp i terminal</td>
+        <td><code class="code">git clone git@github.com:KristianHafell/&lt;git-repo&gt;.git .</code></td>
+    </tr>
+</table>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ddd;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+    }
+
+    th {
+        background-color: #aaa;
+    }
+
+    code {
+        font-family: Consolas, monospace;
+        background-color: #f9f9f9;
+        padding: 2px 4px;
+        border-radius: 4px;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+</style>

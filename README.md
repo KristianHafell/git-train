@@ -25,10 +25,10 @@
 |add noe fra fil|`git add -p <filepath>`|`gap <filepath>`|
 |endre siste commit-melding|`git commit --amend -m "ny melding"`|`gc --amend -m "ny melding"`|
 |angre siste commit og behold endringene|`git reset HEAD~`| `gr`|
-|Stash changes|`git stash`| `gs`|
-|Apply stashed changes|`git stash apply`| `gs apply`|
-|List stashes|`git stash list`| `gs list`|
-|Drop a stash|`git stash drop <stash-name>`| `gs drop <stash-name>`|
+|Stash changes|`git stash`|
+|Apply stashed changes|`git stash apply`|
+|List stashes|`git stash list`| 
+|Drop a stash|`git stash drop <stash-name>`| 
 
 ## inspeksjon
 |description|command|shortcut(egen)|
